@@ -17,8 +17,8 @@ const Post = props => {
         username= {post.username}
         thumbnailUrl={
           post.thumbnailUrl
-        }
-      />
+        }/>
+      
       <div className="post-image-wrapper">
         <img
           alt="post thumbnail"
