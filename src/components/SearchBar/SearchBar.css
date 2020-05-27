@@ -1,11 +1,24 @@
 .search-bar-wrapper {
   border-bottom: 1px solid #3333;
-  height: 60px;
+  height: 77px;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background: #ffffff;
+  background: #C71585;
+  transition: height 02s ease-in-out;
 }
+.Nav-brand-logo {
+  display: block;
+  background-position: -200 px 0 px;
+  background-image: url(https://raw.githubusercontent.com/christiannwamba/instagram-clone/master/src/sprite.png);
+  background-size: 405px 275px;
+  background-repeat: no-repeat;
+  height: 35px;
+  width:176px;
+  text-indent:-1000%;
+  
+}
+
 .search-form {
   width: 150px;
   font-size: 14px;

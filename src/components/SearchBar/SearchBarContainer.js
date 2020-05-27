@@ -5,6 +5,7 @@ import "./SearchBar.css";
 const SearchBar = () => {
   return (
     <div className="search-bar-wrapper">
+      <a className = "Nav-brand-logo" href = "/"></a>
       <div className="image-wrapper">
         <i className="fab fa-instagram" />
       </div>
